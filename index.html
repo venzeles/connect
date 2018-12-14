@@ -52,17 +52,26 @@
                         <div class="header_select_content_item_title">Клиент-банк</div>
                         <div class="header_select_content_item_body">Для малого бизнеса и ИП</div>
                     </div>
+                    <div class="header_select_content_link">
+                        <span>Войти</span>
+                    </div>
                 </a>
                 <a href="#">
                     <div class="header_select_content_wrap">
                         <div class="header_select_content_item_title">Клиент-банк</div>
                         <div class="header_select_content_item_body">Для корпоративного бизнеса</div>
                     </div>
+                    <div class="header_select_content_link">
+                        <span>Войти</span>
+                    </div>
                 </a>
                 <a href="#">
                     <div class="header_select_content_wrap">
                         <div class="header_select_content_item_title">Брокер-клиент</div>
                         <div class="header_select_content_item_body">Для операций с ценными бумагами</div>
+                    </div>
+                    <div class="header_select_content_link">
+                        <span>Войти</span>
                     </div>
                 </a>
             </div>
@@ -122,6 +131,9 @@
             border-radius: 3px;
             background-color: #f7f7f7;
         }
+        .header_select .header_select_content a:hover .header_select_content_link {
+            display: block;
+        }
         .header_select .header_select_content a .header_select_content_item_title {
             font-size: 17px;
             font-weight: bold;
@@ -146,6 +158,7 @@
             flex: 4;
         }
         .header_select .header_select_content_link {
+            display: none;
             flex: 1;
             font-size: 13px;
             font-weight: normal;
