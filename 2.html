@@ -39,6 +39,30 @@
             Интернет-банк
         </div>
     </header>
+    <div class="header_slider">
+        <div class="header_slider_title">Депозитная линейка<br>
+            для малого бизнеса</div>
+        <div class="header_slider_wrapper_body">
+            <div class="header_slider_open_popup">
+                Узнать больше
+            </div>
+            <div class="header_slider_percent">
+                <div class="header_slider_percent_text">
+                    до
+                </div>
+                <div class="header_slider_percent_number">
+                    7,4%
+                </div>
+            </div>
+        </div>
+        <div class="header_slider_control">
+            <div class="header_slider_control_wrap">
+                <span>1 из 5</span>
+                <div class="header_slider_control_left"></div>
+                <div class="header_slider_control_right"></div>
+            </div>
+        </div>
+    </div>
 </div>
 
 
@@ -887,6 +911,101 @@
     }
     section.promo .promo_card_img img {
         width: 100%;
+    }
+</style>
+<style>
+    /* header_slider */
+    .header_slider {
+        padding: 27px 91px 50px 91px;
+        width: 37%;
+        display: flex;
+        flex-direction: column;
+        z-index: 5;
+        position: relative;
+        height: 293px;
+    }
+    .header_slider .header_slider_percent {
+        max-height: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .header_slider .header_slider_percent_number {
+        font-size: 34px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ffffff;
+    }
+    .header_slider .header_slider_percent_text {
+        font-size: 20px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ffffff;
+    }
+    .header_slider .header_slider_wrapper_body {
+        display: flex;
+    }
+    .header_slider .header_slider_title {
+        font-size: 35px;
+        margin-bottom: 21px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.14;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ffffff;
+    }
+    .header_slider .header_slider_open_popup {
+        /*height: 50px;*/
+        border-radius: 25px;
+        border: 1px solid #fff;
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ffffff;
+        max-width: 251px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 26px;
+        margin-right: 19px;
+    }
+    .header_slider .header_slider_control {
+        display: flex;
+        align-items: flex-end;
+        flex: 1;
+    }
+    .header_slider_control_wrap {
+        display: flex;
+        align-items: center;
+    }
+    .header_slider .header_slider_control span {
+        font-size: 12px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 2.08;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ffffff;
+        margin-right: 10px;
+    }
+    .header_slider .header_slider_control_left, .header_slider .header_slider_control_right {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: 1px solid #fff;
+        margin-right: 10px;
     }
 </style>
 </body>
