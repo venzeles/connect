@@ -63,6 +63,9 @@
     padding: 15px 26px;
     margin-right: 19px;
 }
+.header_slider .header_slider_open_popup:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
 .header_slider .header_slider_control {
     display: flex;
     align-items: flex-end;
@@ -90,4 +93,7 @@
     border-radius: 50%;
     border: 1px solid #fff;
     margin-right: 10px;
+}
+.header_slider .header_slider_control_left:hover, .header_slider .header_slider_control_right:hover {
+    background: rgba(0, 0, 0, 0.1);
 }

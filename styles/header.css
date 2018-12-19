@@ -73,3 +73,7 @@ header .header_select {
     align-items: center;
     padding: 16px 32px;
 }
+
+header .header_select:hover {
+    background-color: rgba(47, 64, 92, 0.9);
+}
