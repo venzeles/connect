@@ -6,6 +6,7 @@ section.promo {
     align-items: center;
 }
 section.promo .promo_card {
+    cursor: pointer;
     flex: 1;
     margin-right: 15.5px;
     height: 278px;
