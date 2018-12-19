@@ -46,6 +46,7 @@
     color: #ffffff;
 }
 .header_slider .header_slider_open_popup {
+    cursor: pointer;
     border-radius: 25px;
     border: 1px solid #fff;
     font-size: 14px;
@@ -83,6 +84,7 @@
     margin-right: 10px;
 }
 .header_slider .header_slider_control_left, .header_slider .header_slider_control_right {
+    cursor: pointer;
     width: 30px;
     height: 30px;
     border-radius: 50%;

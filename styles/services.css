@@ -18,6 +18,7 @@
 }
 
 .services .services_title_small {
+    cursor: pointer;
     font-size: 14px;
     font-weight: normal;
     font-style: normal;
@@ -33,13 +34,17 @@
     padding-bottom: 1px;
 }
 
+.services .services_title_small span:hover {
+    text-decoration: underline;
+}
+
 .services .services_cards {
     display: flex;
-    /*justify-content: space-between;*/
     padding-bottom: 40px;
 }
 
 .services .services_card {
+    cursor: pointer;
     display: flex;
     flex-direction: column;
     border-radius: 3px;
@@ -49,6 +54,10 @@
     flex: 1;
     max-width: 33%;
     margin-right: 15px;
+}
+
+.services .services_card:hover .services_card_link span {
+    text-decoration: underline;
 }
 
 .services .services_card_title {

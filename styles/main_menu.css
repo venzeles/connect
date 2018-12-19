@@ -21,6 +21,10 @@ nav.main_menu a {
     padding: 16px;
 }
 
+nav.main_menu a:hover {
+    text-decoration: underline;
+}
+
 nav.main_menu a.active {
     font-size: 16px;
     font-weight: bold;

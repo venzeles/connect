@@ -68,6 +68,9 @@ footer .footer_column a {
     text-decoration: none;
     margin-bottom: 15px;
 }
+footer .footer_column a:hover {
+    text-decoration: underline;
+}
 footer .footer_contact_info {
     display: flex;
 }

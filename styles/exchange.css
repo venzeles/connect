@@ -42,6 +42,11 @@
 
 .exchange_rates .news_item {
     padding-bottom: 22px;
+    cursor: pointer;
+}
+
+.exchange_rates .news_item:hover .news_desc {
+    text-decoration: underline;
 }
 
 .exchange_rates .news_date {
@@ -129,4 +134,8 @@
 .exchange_rates .press_centr_link span {
     margin-right: 9px;
     padding-bottom: 1px;
+}
+
+.exchange_rates .press_centr_link:hover span {
+    text-decoration: underline;
 }

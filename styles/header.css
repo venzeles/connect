@@ -29,7 +29,6 @@ header {
 }
 
 header div.logo {
-    /*width: 81px;*/
     position: relative;
     margin-right: 30px;
     left: -38px;
@@ -51,6 +50,10 @@ header nav a {
     color: #ffffff;
     padding-right: 10px;
     text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
 }
 
 header .header_select {
