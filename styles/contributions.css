@@ -1,0 +1,107 @@
+.contributions {
+    padding: 60px 91px;
+    background-color: #e8ecf5;
+}
+.contributions .contributions_group {
+    margin-bottom: 60px;
+}
+.contributions .contributions_group:last-child {
+    margin-bottom: 0;
+}
+.contributions .contributions_group_item {
+    display: flex;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.contributions .contributions_group_item:first-child {
+    padding-top: 0;
+}
+.contributions .contributions_group_item:last-child {
+    padding-bottom: 0;
+}
+.contributions .contributions_group_item:last-child {
+    border-bottom: none;
+}
+.contributions .contributions_group_item_img {
+    width: 290px;
+    height: 220px;
+    border-radius: 4px;
+    background: url("../images/legkyi_1200x484-9662012@3x.jpg") no-repeat center center;
+    background-size: cover;
+}
+.contributions .contributions_group_title {
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.contributions .contributions_group_item_body_title_label {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    border-radius: 20px;
+    background-color: #1cdc8c;
+    padding: 3px 20px;
+}
+.contributions .contributions_group_item_body {
+    padding-left: 45px;
+    flex: 1;
+}
+.contributions .contributions_group_wrap {
+    border-radius: 4px;
+    background-color: #ffffff;
+    padding: 35px 30px;
+}
+.contributions .contributions_group_item_body_title {
+    padding-top: 22px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 27px;
+}
+.contributions .contributions_group_item_body_title span {
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #000000;
+}
+.contributions .contributions_group_item_cloums {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 28px;
+}
+.contributions .contributions_group_item_cloum {
+    flex: 1;
+    margin-right: 36px;
+}
+.contributions .contributions_group_item_cloum:last-child {
+    margin-right: 0;
+}
+.contributions .big_text {
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #000000;
+}
+.contributions .small_text {
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.14;
+    letter-spacing: normal;
+    color: #000000;
+}
