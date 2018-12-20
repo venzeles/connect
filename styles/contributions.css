@@ -10,7 +10,7 @@
 }
 .contributions .contributions_group_item {
     display: flex;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+    border-bottom: 1px solid rgba(112, 112, 112, 0.2);
     padding-bottom: 30px;
     padding-top: 30px;
 }
@@ -104,4 +104,44 @@
     line-height: 1.14;
     letter-spacing: normal;
     color: #000000;
+}
+
+.contributions_info {
+    padding: 60px 91px;
+}
+.contributions_info .contributions_info_title {
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    color: #000000;
+    margin-bottom: 30px;
+}
+.contributions_info .contributions_info_item_title {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    color: #776f8b;
+    margin-bottom: 16px;
+}
+.contributions_info .contributions_info_item_body {
+    max-width: 816px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid rgba(112, 112, 112, 0.2);
+    margin-bottom: 23px;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #000000;
+}
+.contributions_info .contributions_info_item {
+    margin-bottom: 48px;
 }
