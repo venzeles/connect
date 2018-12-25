@@ -431,7 +431,12 @@
 .header_banner.credit {
     max-width: 800px;
 }
-
 .header_img.credit {
     right: 10px;
 }
+
+.header_banner.deposit {
+    max-width: 880px;
+    padding-top: 25px;
+}
+
