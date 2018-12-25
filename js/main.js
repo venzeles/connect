@@ -38,6 +38,6 @@ $(document).ready(function () {
     $('.toggle').on('click', function () {
         $(this).toggleClass('active');
         $('.toggle-content').slideToggle();
-        $(this).text($(this).hasClass('active') ? text.active : text.base);
+        $(this).children('span').text($(this).hasClass('active') ? text.active : text.base);
     })
 });

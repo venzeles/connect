@@ -71,3 +71,17 @@ body {
 * {
     outline: none;
 }
+
+.conditions .toggle {
+    position: relative;
+}
+.conditions .toggle svg {
+    position: absolute;
+    top: 50%;
+    right: 27px;
+    transform: translate(0, -50%);
+}
+
+.conditions .toggle.active svg {
+    transform: rotate(180deg) translate(0, 50%);
+}

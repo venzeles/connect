@@ -402,7 +402,7 @@
     padding-top: 20px;
 }
 .header_banner {
-    max-width: 800px;
+    max-width: 618px;
     padding: 103px 91px 68px 91px;
     position: relative;
     z-index: 5;
@@ -426,4 +426,12 @@
     letter-spacing: normal;
     color: #ffffff;
     margin-top: 35px;
+}
+
+.header_banner.credit {
+    max-width: 800px;
+}
+
+.header_img.credit {
+    right: 10px;
 }
