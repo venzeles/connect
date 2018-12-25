@@ -85,3 +85,8 @@ body {
 .conditions .toggle.active svg {
     transform: rotate(180deg) translate(0, 50%);
 }
+
+.fix_w_content {
+    max-width: 1366px;
+    margin: 0 auto;
+}
