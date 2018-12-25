@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=cyrillic,cyrillic-ext,latin-ext,vietnamese" rel="stylesheet">
+
+    <link href="styles/style.css" rel="stylesheet">
+    <link href="styles/header.css" rel="stylesheet">
+    <link href="styles/footer.css" rel="stylesheet">
+    <link href="styles/exchange.css" rel="stylesheet">
+    <link href="styles/services.css" rel="stylesheet">
+    <link href="styles/detail_menu.css" rel="stylesheet">
+    <link href="styles/main_menu.css" rel="stylesheet">
+    <link href="styles/promo.css" rel="stylesheet">
+    <link href="styles/header_slider.css" rel="stylesheet">
+    <link href="styles/header_select.css" rel="stylesheet">
+
+    <title>Title</title>
+
+    <style>
+        body {
+            max-width: 100vw;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+<div class="header_wrapper">
+    <div class="header_wrapper_gradient"></div>
+    <img src="images/woman.jpg">
+    <header>
+        <div class="wrap_header_content">
+            <div class="logo">
+                <svg width="148" height="24" viewBox="0 0 148 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M96.7966 4.43848H107.937V6.75545H99.4004V10.1158H103.562C106.849 10.1158 108.983 11.7235 108.983 14.5416C108.983 17.4635 106.849 19.0498 103.434 19.0498H96.7966V4.43848ZM102.858 16.7536C105.12 16.7536 106.358 16.2321 106.358 14.4369C106.358 13.0175 105.27 12.2869 103.328 12.2869H99.4003V16.7536H102.858ZM118.102 19.0498V17.6934C117.334 18.5909 116.159 19.2797 114.453 19.2797C112.318 19.2797 110.44 18.0899 110.44 15.8356C110.44 13.3932 112.382 12.2242 115.007 12.2242C116.373 12.2242 117.248 12.4119 118.124 12.6834V12.4749C118.124 10.9509 117.141 10.1157 115.349 10.1157C114.09 10.1157 113.151 10.3875 112.126 10.8048L111.422 8.78009C112.659 8.23746 113.876 7.86141 115.711 7.86141C119.041 7.86141 120.663 9.57341 120.663 12.5165V19.0498H118.102ZM118.166 14.4369C117.505 14.1862 116.587 13.9985 115.584 13.9985C113.962 13.9985 113.002 14.6454 113.002 15.7518C113.002 16.7955 113.962 17.38 115.178 17.38C116.886 17.38 118.166 16.4405 118.166 15.063V14.4369ZM123.515 8.02865H126.097V12.4957H131.07V8.02865H133.652V19.0498H131.07V14.6038H126.097V19.0498H123.515V8.02865ZM136.675 8.02865H139.237V13.3098L144.145 8.02865H147.176L142.8 12.6626L147.538 19.0498H144.487L141.072 14.4996L139.237 16.399V19.0498H136.675V8.02865Z" fill="white"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M33.7916 11.7453C33.7916 7.5907 36.9718 4.18848 41.4959 4.18848C44.2494 4.18848 45.9142 5.12793 47.3446 6.46421L45.6579 8.36324C44.4629 7.27799 43.1826 6.54734 41.475 6.54734C38.615 6.54734 36.5448 8.8432 36.5448 11.7453C36.5448 14.6046 38.615 16.9424 41.475 16.9424C43.3104 16.9424 44.4838 16.212 45.7648 15.043L47.4508 16.7128C45.8929 18.2991 44.1853 19.3012 41.3897 19.3012C37.0358 19.3012 33.7916 15.9825 33.7916 11.7453ZM49.463 8.02938H55.2468C57.4873 8.02938 58.9602 9.09419 58.9602 10.7847C58.9602 12.1834 58.1066 12.8929 57.146 13.3105C58.512 13.6862 59.4725 14.5003 59.4725 16.0659C59.4725 17.9233 57.8718 19.0505 55.3103 19.0505H49.463V8.02938ZM54.6494 12.5799C55.7377 12.5799 56.3354 12.0161 56.3354 11.2228C56.3354 10.5136 55.844 9.97031 54.6919 9.97031H52.0024V12.5799H54.6494ZM54.9266 17.0467C56.1856 17.0467 56.8474 16.4833 56.8474 15.6276C56.8474 14.8343 56.1856 14.2917 54.7988 14.2917H52.0024V17.0467H54.9266ZM64.2665 15.0311C62.7298 14.5719 61.3002 13.8541 61.3002 11.6196C61.3002 9.49068 62.9012 8.02938 65.7397 8.02938H71.3951V19.0505H68.8129V15.3352H66.9485L63.6486 19.0505H60.5595L64.2665 15.0311ZM68.8129 13.436V10.075H66.081C64.715 10.075 63.8827 10.7014 63.8827 11.7454C63.8827 12.8092 64.7791 13.436 66.1022 13.436H68.8129ZM73.1087 17.6104L74.3252 15.9407C75.3282 16.7756 76.5876 17.2562 77.8679 17.2562C79.0416 17.2562 80.0022 16.6502 80.0022 15.7319C80.0022 14.9181 79.191 14.354 77.7185 14.354H76.3313V12.5381H77.7185C78.935 12.5381 79.7033 11.9331 79.7033 11.0979C79.7033 10.3465 78.9138 9.84576 77.8463 9.84576C76.6726 9.84576 75.4989 10.2423 74.6453 10.9726L73.4928 9.38626C74.6453 8.40525 76.246 7.79994 78.0811 7.79994C80.557 7.79994 82.2858 9.05277 82.2858 10.7641C82.2858 12.1001 81.4959 12.8512 80.5145 13.2688C81.731 13.6864 82.5634 14.5213 82.5634 15.9407C82.5634 17.7988 80.7705 19.3013 78.0389 19.3013C76.0325 19.3013 74.4321 18.7168 73.1087 17.6104ZM84.5903 8.02938H87.1725V11.8911H89.755C92.2953 11.8911 94.237 12.9764 94.237 15.3771C94.237 17.6525 92.5938 19.0505 89.9472 19.0505H84.5903V8.02938ZM89.6057 17.0051C90.9076 17.0051 91.655 16.4414 91.655 15.3772C91.655 14.3962 90.886 13.8533 89.5629 13.8533H87.1726V17.0051H89.6057Z" fill="white"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.92859 15.8143C7.88272 11.6758 4.40443 8.31348 0.131873 8.31348C0.0876907 8.31348 0.0441826 8.35801 0 8.35801C0.219564 12.452 3.65738 15.7265 7.92859 15.8143Z" fill="white"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.10532 0C3.61319 0 0 3.53549 0 7.92632C0 7.97118 0 7.97118 0 8.01637H18.4147C18.4596 3.74726 21.983 0.300837 26.346 0.300837H26.5217V0H8.10532Z" fill="white"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0.131873 23.6968H0V23.9996H18.4147C22.8647 23.9996 26.5217 20.4681 26.5217 16.0697C26.5217 16.0291 26.5217 16.0291 26.5217 15.9875H8.10532C8.06282 20.251 4.53664 23.6968 0.131873 23.6968ZM18.547 8.1875C18.5929 12.3237 22.0711 15.684 26.3461 15.684H26.5218C26.3005 11.5033 22.8229 8.27195 18.547 8.1875Z" fill="white"/>
+                </svg>
+            </div>
+            <nav>
+                <a href="#">О банке</a>
+                <a href="#">Пресс-центр</a>
+                <a href="#">Офисы и банкоматы</a>
+            </nav>
+        </div>
+        <div class="header_select">
+            <span>Интернет-банк</span>
+            <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 1.59824L5.6305 6.66569L6 7L6.3695 6.66569L12 1.59824L11.261 0.753666L6 5.4868L0.739003 0.753666L0 1.59824Z" fill="white"/>
+            </svg>
+            <div class="header_select_content">
+                <a href="#">
+                    <div class="header_select_content_wrap">
+                        <div class="header_select_content_item_title">Живи онлайн</div>
+                        <div class="header_select_content_item_body">Для физичесих лиц</div>
+                    </div>
+                    <div class="header_select_content_link">
+                        <span>Войти</span>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="header_select_content_wrap">
+                        <div class="header_select_content_item_title">Клиент-банк</div>
+                        <div class="header_select_content_item_body">Для малого бизнеса и ИП</div>
+                    </div>
+                    <div class="header_select_content_link">
+                        <span>Войти</span>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="header_select_content_wrap">
+                        <div class="header_select_content_item_title">Клиент-банк</div>
+                        <div class="header_select_content_item_body">Для корпоративного бизнеса</div>
+                    </div>
+                    <div class="header_select_content_link">
+                        <span>Войти</span>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="header_select_content_wrap">
+                        <div class="header_select_content_item_title">Брокер-клиент</div>
+                        <div class="header_select_content_item_body">Для операций с ценными бумагами</div>
+                    </div>
+                    <div class="header_select_content_link">
+                        <span>Войти</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </header>
+    <div class="header_slider">
+        <div class="header_slider_title">Депозитная линейка<br>
+            для малого бизнеса</div>
+        <div class="header_slider_wrapper_body">
+            <div class="header_slider_open_popup">
+                Узнать больше
+            </div>
+            <div class="header_slider_percent">
+                <div class="header_slider_percent_text">
+                    до
+                </div>
+                <div class="header_slider_percent_number">
+                    7,4%
+                </div>
+            </div>
+        </div>
+        <div class="header_slider_control">
+            <div class="header_slider_control_wrap">
+                <span>1 из 5</span>
+                <div class="header_slider_control_left disable"></div>
+                <div class="header_slider_control_right">
+                    <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.59824 12L6.66569 6.3695L7 6L6.66569 5.6305L1.59824 0L0.753666 0.739003L5.4868 6L0.753666 11.261L1.59824 12Z" fill="white"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<nav class="main_menu">
+    <a href="/connect.github.io/">Частным лицам</a>
+    <a href="/connect.github.io/2.html" class="active">Малому бизнесу</a>
+    <a href="/connect.github.io/3.html">Корпоративным клиентам</a>
+    <a href="/connect.github.io/4.html">Финансовым институтам</a>
+    <a href="/connect.github.io/5.html">Состоятельным клиентам</a>
+</nav>
+
+<section class="detail_menu fix_w_content">
+    <div class="detail_menu_wrap_columns">
+        <div class="detail_menu_column">
+            <div class="detail_menu_column_icon">
+                <img src="images/safe.svg" height="35">
+            </div>
+            <div class="detail_menu_column_title">
+                Расчетный счет
+            </div>
+            <div class="detail_menu_column_links">
+                <a href="#">Подать заявку онлайн</a>
+                <a href="#">Тарифы и документы</a>
+                <a href="#">Подготовка документов</a>
+            </div>
+        </div>
+        <div class="detail_menu_column">
+            <div class="detail_menu_column_icon">
+                <img src="images/cards.svg" height="35">
+            </div>
+            <div class="detail_menu_column_title">
+                Карты для бизнеса
+            </div>
+            <div class="detail_menu_column_links">
+                <a href="#">Карта самоинкассации</a>
+                <a href="#">Карта предпринимателя</a>
+            </div>
+        </div>
+        <div class="detail_menu_column">
+            <div class="detail_menu_column_icon">
+                <img src="images/chart.svg" height="35">
+            </div>
+            <div class="detail_menu_column_title">
+                Депозиты
+            </div>
+            <div class="detail_menu_column_links">
+                <a href="#">Лучшая ставка</a>
+                <a href="#">Снимай-пополняй</a>
+                <a href="#">Можно досрочно</a>
+                <a href="#">Лови момент</a>
+            </div>
+        </div>
+        <div class="detail_menu_column">
+            <div class="detail_menu_column_icon">
+                <img src="images/calculator.svg" height="35">
+            </div>
+            <div class="detail_menu_column_title">
+                Эквайринг
+            </div>
+            <div class="detail_menu_column_links">
+                <a href="#">Интернет-эквайринг</a>
+                <a href="#">Торговый эквайринг</a>
+                <a href="#">Мобильный эквайринг</a>
+            </div>
+        </div>
+        <div class="detail_menu_column">
+            <div class="detail_menu_column_icon">
+                <img src="images/building.svg" height="35">
+            </div>
+            <div class="detail_menu_column_title">
+                Услуги
+            </div>
+            <div class="detail_menu_column_links">
+                <a href="#">Банковская гарантия</a>
+                <a href="#">Овердрафт</a>
+                <a href="#">Зарплатные проекты</a>
+                <a href="#">Валютный контроль</a>
+            </div>
+        </div>
+    </div>
+    <div class="detail_menu_sub">
+        <a href="#">
+            <img src="images/sale.jpg" width="15">
+            <span>Тарифы</span>
+        </a>
+    </div>
+</section>
+
+<section class="services">
+    <div class="fix_w_content">
+        <div class="services_title">
+            <span>Онлайн-сервисы банка</span>
+            <span class="services_title_small">
+            <span>Все сервисы</span>
+            <svg width="5" height="9" viewBox="0 0 5 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.644921 8.5L4.02322 4.74633L4.24609 4.5L4.02322 4.25367L0.644921 0.5L0.081871 0.992669L3.2373 4.5L0.081871 8.00733L0.644921 8.5Z" fill="white"/>
+            </svg>
+        </span>
+        </div>
+
+        <div class="services_cards">
+            <div class="services_card">
+                <div class="services_card_title">Рассчет тарифов РКО</div>
+                <div class="services_card_desc">Рассчитайте стоимость обслуживания расчетного счета для своих потребностей</div>
+                <a class="services_card_link" href="#">
+                    <span>Перевести деньги</span>
+                    <svg width="5" height="9" viewBox="0 0 5 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.644921 8.5L4.02322 4.74633L4.24609 4.5L4.02322 4.25367L0.644921 0.5L0.081871 0.992669L3.2373 4.5L0.081871 8.00733L0.644921 8.5Z" fill="#0050BC"/>
+                    </svg>
+                </a>
+            </div>
+            <div class="services_card">
+                <div class="services_card_title">Подготовка документов по стандартам банка</div>
+                <div class="services_card_desc">Сформируйте и распечатайте документы, необходимые для открытия счета</div>
+                <a class="services_card_link" href="#">
+                    <span>Сформировать документы</span>
+                    <svg width="5" height="9" viewBox="0 0 5 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.644921 8.5L4.02322 4.74633L4.24609 4.5L4.02322 4.25367L0.644921 0.5L0.081871 0.992669L3.2373 4.5L0.081871 8.00733L0.644921 8.5Z" fill="#0050BC"/>
+                    </svg>
+                </a>
+            </div>
+            <div class="services_card">
+                <div class="services_card_title">Калькулятор депозитов</div>
+                <div class="services_card_desc">Рассчитайте доходность депозита и оставьте заявку в онлайне</div>
+                <a class="services_card_link" href="#">
+                    <span>Рассчитать</span>
+                    <svg width="5" height="9" viewBox="0 0 5 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.644921 8.5L4.02322 4.74633L4.24609 4.5L4.02322 4.25367L0.644921 0.5L0.081871 0.992669L3.2373 4.5L0.081871 8.00733L0.644921 8.5Z" fill="#0050BC"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+        <div class="title_login">
+            <span class="title_login_text">Клиент-банк для малого бизнеса и ИП</span>
+            <button class="title_login_btn">Войти</button>
+        </div>
+    </div>
+</section>
+
+<section class="exchange_rates fix_w_content">
+    <div class="exchange_rates_column">
+        <div class="exchange_rates_column_title">Курсы валют</div>
+        <table class="exchange_table" cellspacing="0">
+            <thead>
+            <tr>
+                <th>На 28 августа</th>
+                <th>Покупка</th>
+                <th>Продажа</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>USD</td>
+                <td>
+                        <span class="wrap_currency_val">
+                            <div class="exchange_table_delta green">+0.95</div>
+                            65.78
+                        </span>
+                </td>
+                <td>
+                        <span class="wrap_currency_val">
+                            <div class="exchange_table_delta red">-1.10</div>
+                            68.34
+                        </span>
+                </td>
+            </tr>
+            <tr>
+                <td>EUR</td>
+                <td>
+                    <apsn class="wrap_currency_val">
+                        <div class="exchange_table_delta green">+1.12</div>
+                        76.71
+                    </apsn>
+                </td>
+                <td>
+                        <span class="wrap_currency_val">
+                            <div class="exchange_table_delta red">-1.30</div>
+                            79.71
+                        </span>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="exchange_rates_column">
+        <div class="exchange_rates_column_title">Курсы металлов</div>
+        <table class="exchange_table" cellspacing="0">
+            <thead>
+            <tr>
+                <th></th>
+                <th>Покупка</th>
+                <th>Продажа</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Золото</td>
+                <td>
+                        <span class="wrap_currency_val">
+                            <div class="exchange_table_delta green">+0.95</div>
+                            65.78
+                        </span>
+                </td>
+                <td>
+                        <span class="wrap_currency_val">
+                            <div class="exchange_table_delta red">-1.10</div>
+                            68.34
+                        </span>
+                </td>
+            </tr>
+            <tr>
+                <td>Серебро</td>
+                <td>
+                    <apsn class="wrap_currency_val">
+                        <div class="exchange_table_delta green">+1.12</div>
+                        76.71
+                    </apsn>
+                </td>
+                <td>
+                        <span class="wrap_currency_val">
+                            <div class="exchange_table_delta red">-1.30</div>
+                            79.71
+                        </span>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="exchange_rates_column">
+        <div class="exchange_rates_column_title">Новости</div>
+        <a href="#" class="press_centr_link">
+            <span>Пресс-центр</span>
+            <svg width="5" height="9" viewBox="0 0 5 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.644921 8.5L4.02322 4.74633L4.24609 4.5L4.02322 4.25367L0.644921 0.5L0.081871 0.992669L3.2373 4.5L0.081871 8.00733L0.644921 8.5Z" fill="#0050BC"/>
+            </svg>
+        </a>
+        <div class="wrap_news">
+            <div class="news_item">
+                <div class="news_date">24 августа</div>
+                <div class="news_desc">Бурятский филиал Связь-Банка переводится в статус Операционного офиса</div>
+            </div>
+            <div class="news_item">
+                <div class="news_date">20 августа</div>
+                <div class="news_desc">Снимать наличные по картам Связь-Банка в банкоматах Глобэксбанка можно бесплатно</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="phones">
+        <div class="phones_title">Круглосуточно, бесплатно по РФ</div>
+        <div class="phones_number">
+            8-800-500-00-80
+        </div>
+        <div class="phones_number">
+            8-495-500-00-80
+        </div>
+    </div>
+    <div class="wrap_footer_info">
+        <div class="footer_menu">
+            <div class="footer_column">
+                <a href="#">Информация о лицах, под контролем либо значительным влиянием которых находится банк</a>
+                <a href="#">Раскрытие информации профессионального участника рынка ценных бумаг</a>
+                <a href="#">Информация о процентных ставках по договорам банковского вклада</a>
+            </div>
+            <div class="footer_column">
+                <a href="#">Каталог залогового имущества</a>
+                <a href="#">Информация для акционеров</a>
+                <a href="#">Пользовательское соглашение</a>
+            </div>
+            <div class="footer_column">
+                <div class="footer_menu_title">Денежные переводы</div>
+                <img src="images/blizko.svg" width="113"><br>
+                <img src="images/footer_img.jpg" width="52">
+            </div>
+        </div>
+        <div class="footer_contact_info">
+            <div class="footer_column">
+                © «Связь-Банк», 2018<br>
+                Основан в 1991 году<br>
+                Генеральная лицензия Банка РФ № 1470
+            </div>
+            <div class="footer_column">
+                105066, г. Москва,<br>
+                ул. Новорязанская,<br>
+                д. 31/7, корп.2
+            </div>
+            <div class="footer_column social">
+                <img src="images/facebook.svg" height="15">
+                <img src="images/twitter.svg" height="15">
+                <img src="images/vk.svg" height="15">
+            </div>
+        </div>
+    </div>
+</footer>
+<style>
+    .services {
+        background-color: #433e74;
+    }
+    header .header_select {
+        background-color: rgba(67, 62, 116, 0.8);
+    }
+    header .header_select:hover {
+        background-color: rgba(67, 62, 116, 0.9);
+    }
+    .header_wrapper_gradient {
+        background-image: linear-gradient(to right, #433e74, rgba(66, 61, 114, 0.96) 100%, rgba(34, 31, 58, 0));
+    }
+</style>
+</body>
+</html>
