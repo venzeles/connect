@@ -21,6 +21,9 @@
     width: 6px;
     margin-left: 7px;
 }
+.header_select.credit svg {
+    width: auto;
+}
 .header_select:hover .header_select_content {
     display: block;
 }
