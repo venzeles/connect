@@ -1,8 +1,10 @@
 .advantages {
     display: flex;
-    background-color: #e8ecf5;
     padding: 45px 72px;
     justify-content: space-between;
+}
+.advantages_wrap {
+    background-color: #e8ecf5;
 }
 .advantages-item {
     margin-right: 6%;
