@@ -460,6 +460,9 @@
     .header_wrapper .header_img {
         height: 270px;
     }
+    .header_wrapper {
+        overflow-x: hidden;
+    }
     .header_img.credit {
         right: -42px;
     }
@@ -477,5 +480,54 @@
     .advantages-item .icon svg {
         height: 30px;
         width: 30px;
+    }
+    .calculator-info {
+        padding: 30px;
+        max-width: 50%;
+        flex: 1;
+    }
+    .calculator-info h2 {
+        margin-top: 0;
+        font-size: 20px;
+        letter-spacing: -0.03px;
+    }
+    .calculator-info ul li {
+        font-size: 14px;
+        letter-spacing: -0.02px;
+    }
+    .calculator-info .disclaimer {
+        font-size: 14px;
+        letter-spacing: -0.02px;
+    }
+    .calculator-form {
+        width: 50%;
+        flex: 1;
+        padding: 30px;
+    }
+    .get-credit-wrap .get-credit {
+        padding: 30px;
+    }
+    .get-credit-wrap {
+        margin: 30px;
+    }
+    .get-credit-wrap .get-credit-form {
+        width: auto;
+        margin-left: 36%;
+    }
+    .get-credit-wrap .get-credit-form h2 {
+        font-size: 20px;
+        letter-spacing: -0.03px;
+    }
+    .get-credit-wrap .get-credit-form h3 {
+        font-size: 12px;
+        letter-spacing: -0.02px;
+    }
+    .conditions h2 {
+        font-size: 20px;
+        letter-spacing: -0.03px;
+    }
+    .conditions .conditions-items .conditions-item {
+        font-size: 14px;
+        letter-spacing: -0.02px;
     }
 }
