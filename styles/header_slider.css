@@ -7,6 +7,11 @@
     position: relative;
     height: 293px;
 }
+@media (max-width: 1000px) {
+   .header_wrapper .header_slider {
+       padding: 30px;
+   }
+}
 .header_slider .header_slider_percent {
     max-height: 50px;
     display: flex;
