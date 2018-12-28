@@ -76,3 +76,22 @@
 .detail_menu .detail_menu_sub a img {
     margin-right: 8px;
 }
+
+@media (max-width: 768px) {
+    .detail_menu {
+        padding: 30px;
+    }
+    .detail_menu .detail_menu_sub {
+        display: none;
+    }
+    .detail_menu .detail_menu_column_title, .detail_menu .detail_menu_column_links a {
+        font-size: 10px;
+        font-weight: normal;
+    }
+    .detail_menu .detail_menu_column_title {
+        border-bottom: none;
+    }
+    .detail_menu .detail_menu_column {
+        margin-right: 10px;
+    }
+}

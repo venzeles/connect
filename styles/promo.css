@@ -50,4 +50,22 @@ section.promo .promo_card_img img {
         padding: 30px;
         height: auto;
     }
+    section.promo .promo_card .promo_card_description {
+        padding: 15px;
+    }
+    section.promo .promo_card .promo_card_description_title {
+        font-weight: normal;
+        padding-bottom: 10px;
+    }
+    section.promo .promo_card {
+        height: 244px;
+    }
+    .detail_menu .detail_menu_column {
+        box-shadow: 0 3px 13px 0 rgba(50, 77, 113, 0.37);
+        min-width: 174px;
+        padding: 15px;
+    }
+    .detail_menu.fix_w_content {
+        overflow-x: hidden;
+    }
 }
