@@ -120,11 +120,10 @@ header .m_menu, .m_wrap_menu {
         cursor: pointer;
     }
     .m_wrap_menu {
-        /*display: block;*/
         position: absolute;
         right: 0;
         height: 100%;
-        width: 324px;
+        width: 384px;
         background: #fff;
         z-index: 10;
         box-shadow: 0 2px 9px 0 rgba(0,0,0,0.50);
