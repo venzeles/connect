@@ -145,4 +145,7 @@ footer .footer_contact_info .footer_column {
         padding-right: 0;
         min-width: 100px;
     }
+    .footer_contact_info .footer_column:nth-child(2) {
+        padding-right: 0;
+    }
 }
