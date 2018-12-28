@@ -59,6 +59,7 @@ body {
     line-height: 1.71;
     letter-spacing: normal;
     color: #0050bc;
+    background: #fff;
 }
 .link_btn:hover {
     text-decoration: underline;
