@@ -442,3 +442,40 @@
     padding-top: 25px;
 }
 
+@media (max-width: 768px) {
+    .header_banner {
+        padding: 30px;
+    }
+    .header_banner .header_banner_title {
+        font-size: 30px;
+        letter-spacing: -0.04px;
+    }
+    .header_banner.credit {
+        padding-top: 100px;
+    }
+    .header_banner .header_banner_description {
+        font-size: 16px;
+        letter-spacing: -0.02px;
+    }
+    .header_wrapper .header_img {
+        height: 270px;
+    }
+    .header_img.credit {
+        right: -42px;
+    }
+    .advantages {
+        padding: 30px;
+    }
+    .advantages-item h2 {
+        font-size: 14px;
+        letter-spacing: -0.02px;
+    }
+    .advantages-item .icon {
+        width: 60px;
+        height: 60px;
+    }
+    .advantages-item .icon svg {
+        height: 30px;
+        width: 30px;
+    }
+}
