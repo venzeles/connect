@@ -139,3 +139,32 @@
 .exchange_rates .press_centr_link:hover span {
     text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+    section.exchange_rates {
+        padding: 30px;
+        flex-wrap: wrap;
+    }
+    .exchange_rates .exchange_rates_column_title {
+        font-size: 20px;
+        font-weight: normal;
+    }
+    .exchange_rates .exchange_rates_column {
+        min-width: 40%;
+    }
+    .exchange_rates .exchange_rates_column {
+        padding-right: 40px;
+    }
+    .exchange_rates .exchange_rates_column:nth-child(2) {
+        padding-right: 0;
+    }
+    .wrap_news {
+        display: flex;
+    }
+    .news_item {
+        flex: 1;
+    }
+    .news_item:first-child {
+        margin-right: 40px;
+    }
+}

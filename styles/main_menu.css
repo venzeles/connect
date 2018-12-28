@@ -52,3 +52,9 @@ nav.main_menu a.active::after {
 nav.main_menu a:last-child {
     margin-right: 0;
 }
+
+@media (max-width: 768px) {
+    nav.main_menu {
+        display: none;
+    }
+}

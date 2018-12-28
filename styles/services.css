@@ -138,3 +138,28 @@
 .services .title_login_btn:hover {
     background: rgba(0, 0, 0, 0.1);
 }
+@media (max-width: 768px) {
+    section.services {
+        padding: 30px;
+    }
+    .services .services_title, .services .title_login_text {
+        font-size: 20px;
+        font-weight: normal;
+    }
+    .services .title_login {
+        justify-content: space-between;
+    }
+    .services .services_cards {
+        flex-wrap: wrap;
+        margin-top: 10px;
+        justify-content: space-between;
+    }
+    .services .services_card {
+        margin-right: 10px;
+        min-width: 40%;
+        margin-bottom: 20px;
+    }
+    .services .services_card:nth-child(2n) {
+        margin-right: 0;
+    }
+}

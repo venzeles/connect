@@ -44,3 +44,10 @@ section.promo .promo_card_img {
 section.promo .promo_card_img img {
     width: 100%;
 }
+
+@media (max-width: 768px) {
+    section.promo {
+        padding: 30px;
+        height: auto;
+    }
+}
