@@ -107,7 +107,8 @@ footer .footer_contact_info .footer_column {
     .footer_menu .footer_column {
         flex: 1;
         min-width: 40%;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
+        padding-top: 0;
     }
     .footer_menu .phones {
         display: block;

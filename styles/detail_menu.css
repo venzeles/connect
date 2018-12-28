@@ -94,4 +94,13 @@
     .detail_menu .detail_menu_column {
         margin-right: 10px;
     }
+    .detail_menu .detail_menu_column {
+        background: #FFFFFF;
+        box-shadow: 0 8px 32px 0 rgba(50,77,113,0.16);
+        min-width: 174px;
+        padding: 15px;
+    }
+    .detail_menu.fix_w_content {
+        overflow-x: hidden;
+    }
 }
