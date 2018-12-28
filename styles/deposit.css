@@ -50,3 +50,37 @@ section.content {
     padding-right: 40px;
     margin-bottom: 20px;
 }
+
+@media (max-width: 768px) {
+    .header_banner .header_banner_title {
+        font-size: 30px;
+        letter-spacing: -0.04px;
+    }
+    .header_banner .header_banner_description {
+        font-size: 16px;
+        letter-spacing: -0.02px;
+    }
+    .header_banner.deposit {
+        padding-top: 100px;
+    }
+    .header_banner, section.content {
+        padding: 30px;
+    }
+    .deposit_services ul {
+        columns: 2;
+    }
+    .list_deposits h3, .deposit_services h3 {
+        font-size: 20px;
+        letter-spacing: -0.03px;
+    }
+    .list_deposits, .deposit_services {
+        font-size: 15px;
+        letter-spacing: -0.02px;
+    }
+    .get-credit-wrap {
+        margin: 30px;
+    }
+    .get-credit-wrap .get-credit-form {
+        width: 100%;
+    }
+}
