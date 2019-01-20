@@ -638,11 +638,77 @@
         margin-top: 0;
         font-size: 19px;
     }
+    .get-credit-wrap .get-credit-form h2.credit {
+        margin-bottom: 160px;
+    }
     .get-credit-wrap .get-credit-form .buttons {
         flex-wrap: wrap;
     }
     .get-credit-wrap .get-credit-form .button {
         width: 100%;
         margin-top: 10px;
+    }
+    .advantages, .conditions {
+        flex-wrap: wrap;
+        padding: 15px;
+    }
+    .advantages-item {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        align-content: center;
+    }
+    .advantages-item .icon {
+        min-width: 60px;
+        margin-right: 15px;
+    }
+    .conditions h2 {
+        margin-bottom: 15px;
+    }
+    .conditions .conditions-items .conditions-item {
+        margin-bottom: 10px;
+    }
+    .conditions .conditions-items {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .conditions .conditions-items .conditions-item {
+        width: 100%;
+    }
+    .conditions .toggle {
+        width: 306px;
+    }
+    .get-credit-wrap .get-credit {
+        padding: 15px;
+    }
+    .get-credit-wrap .get-credit-form .steps {
+        right: 0;
+        top: -60px;
+        width: 145px;
+    }
+    .get-credit-wrap {
+        margin: 15px;
+    }
+    .get-credit-wrap .get-credit-form .checkbox label {
+        display: block;
+    }
+    .get-credit-wrap .get-credit-form .checkbox label:before {
+        top: 4px;
+    }
+    .calculator-info {
+        padding: 15px;
+        max-width: 100%;
+        order: 2;
+    }
+    .calculator-form {
+        min-width: 100%;
+        max-width: 100%;
+        order: 1;
+    }
+    .calculator {
+        flex-wrap: wrap;
+    }
+    .calculator-form-wrap {
+        min-width: 100%;
     }
 }
