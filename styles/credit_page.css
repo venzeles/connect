@@ -597,11 +597,11 @@
 }
 
 @media (max-width: 375px) {
-    .header_banner, section.contributions, section.contributions_info {
-        padding: 15px;
+    .header_banner, section.contributions, section.contributions_info, section.content {
+        padding: 15px!important;
     }
-    .header_banner.credit {
-        padding-top: 15px;
+    .header_banner.credit, .header_banner.deposit {
+        padding-top: 15px!important;
     }
     section.contributions .contributions_group_item {
         flex-wrap: wrap;
@@ -621,5 +621,28 @@
     }
     .contributions .contributions_group_item_img {
         width: 100% !important;
+    }
+    .header_wrapper.deposit {
+        min-height: 100px;
+    }
+    .deposit_services ul {
+        columns: 1!important;
+    }
+    .deposit_services ul {
+        margin-bottom: 0!important;
+    }
+    .get-credit-wrap .get-credit-form {
+        margin: 0;
+    }
+    .get-credit-wrap .get-credit-form h2 {
+        margin-top: 0;
+        font-size: 19px;
+    }
+    .get-credit-wrap .get-credit-form .buttons {
+        flex-wrap: wrap;
+    }
+    .get-credit-wrap .get-credit-form .button {
+        width: 100%;
+        margin-top: 10px;
     }
 }
