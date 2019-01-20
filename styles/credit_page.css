@@ -595,3 +595,31 @@
         padding-bottom: 0;
     }
 }
+
+@media (max-width: 375px) {
+    .header_banner, section.contributions, section.contributions_info {
+        padding: 15px;
+    }
+    .header_banner.credit {
+        padding-top: 15px;
+    }
+    section.contributions .contributions_group_item {
+        flex-wrap: wrap;
+        position: relative;
+    }
+    .contributions .contributions_group_item_body {
+        padding-left: 0!important;
+    }
+    section.contributions .contributions_group_item_body_title {
+        position: inherit;
+    }
+    section.contributions .contributions_group_item_body_title_label {
+        top: -10px;
+    }
+    .contributions .contributions_group_wrap {
+        padding: 20px 15px!important;
+    }
+    .contributions .contributions_group_item_img {
+        width: 100% !important;
+    }
+}
