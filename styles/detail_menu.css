@@ -104,3 +104,9 @@
         overflow-x: hidden;
     }
 }
+
+@media (max-width: 375px) {
+    .detail_menu {
+        padding: 15px;
+    }
+}
