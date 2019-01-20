@@ -180,6 +180,7 @@ footer .full_version {
     }
     .footer_menu .footer_column {
         margin-bottom: 0;
+        padding-right: 0;
     }
     .footer_menu .phones {
         padding-bottom: 20px;

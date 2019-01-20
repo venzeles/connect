@@ -61,3 +61,13 @@ section.promo .promo_card_img img {
         height: 244px;
     }
 }
+
+@media (max-width: 375px) {
+    section.promo {
+        padding: 15px;
+        overflow-x: hidden;
+    }
+    section.promo .promo_card {
+        min-width: 98%;
+    }
+}

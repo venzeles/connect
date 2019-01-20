@@ -106,6 +106,10 @@ header .m_menu, .m_wrap_menu {
     display: none;
 }
 
+.m_wrap_menu_content .logo {
+    display: none;
+}
+
 @media (max-width: 768px) {
     header {
         padding: 30px 0 0 70px;
@@ -132,7 +136,7 @@ header .m_menu, .m_wrap_menu {
         padding: 30px;
         position: relative;
     }
-    .m_wrap_menu_content svg {
+    .m_wrap_menu_content svg.arrow {
         position: absolute;
         width: 24px;
         height: 23px;
@@ -161,5 +165,15 @@ header .m_menu, .m_wrap_menu {
         font-size: 12px;
         color: rgba(0, 0, 0, 0.5);
         letter-spacing: -0.02px;
+    }
+}
+
+@media (max-width: 375px) {
+    .m_wrap_menu {
+        width: 368px;
+    }
+    .m_wrap_menu_content .logo {
+        display: block;
+        padding-bottom: 25px;
     }
 }
