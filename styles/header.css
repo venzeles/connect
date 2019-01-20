@@ -173,7 +173,8 @@ header .m_menu, .m_wrap_menu {
         padding: 25px 0 15px 52px;
     }
     .header_wrapper {
-        height: 560px!important;
+        height: auto!important;
+        min-height: 560px;
     }
     .m_wrap_menu {
         width: 368px;
