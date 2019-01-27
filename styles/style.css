@@ -97,12 +97,12 @@ body {
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
     .exchange_rates .exchange_table_delta {
-        top: 0;
+        top: 0!important;
     }
     .header_slider .header_slider_percent_text {
-        line-height: 0.5;
+        line-height: 0.5!important;
     }
     .header_slider .header_slider_percent_number {
-        line-height: 1.6;
+        line-height: 1.6!important;
     }
 }
