@@ -73,7 +73,7 @@
 }
 
 .services .services_card_desc {
-    flex: 1;
+    flex: 1 1 0;
     padding-bottom: 21px;
     font-size: 14px;
     font-weight: normal;

@@ -81,6 +81,7 @@ header nav a.header_nav_select svg {
 }
 
 header .header_select {
+    min-width: 124px;
     cursor: pointer;
     font-size: 14px;
     font-weight: normal;
@@ -96,6 +97,10 @@ header .header_select {
     display: flex;
     align-items: center;
     padding: 16px 32px;
+}
+
+header .header_select.credit {
+    min-width: 130px;
 }
 
 header .header_select:hover {
