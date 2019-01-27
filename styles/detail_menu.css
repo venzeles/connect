@@ -105,6 +105,12 @@
     }
 }
 
+@media (max-width: 1243px) {
+    .detail_menu .detail_menu_column_title, .detail_menu .detail_menu_column_links a {
+        line-height: 1;
+        padding: 5px 0;
+    }
+}
 @media (max-width: 375px) {
     .detail_menu {
         padding: 15px;

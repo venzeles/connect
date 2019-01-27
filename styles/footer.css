@@ -90,7 +90,7 @@ footer .footer_contact_info .footer_column {
 footer .full_version {
     display: none;
 }
-@media (max-width: 768px) {
+@media (max-width: 1300px) {
     footer {
         padding: 30px;
     }
@@ -154,6 +154,12 @@ footer .full_version {
     }
 }
 
+@media (max-width: 1400px) {
+    footer .phones_title, .footer_menu_title {
+        line-height: 1;
+        padding: 5px 0;
+    }
+}
 @media (max-width: 375px) {
     footer {
         padding: 15px;

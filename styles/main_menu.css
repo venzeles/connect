@@ -47,6 +47,8 @@ nav.main_menu a.active::after {
     position: absolute;
     background: #fff;
     z-index: 5;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
 }
 
 nav.main_menu a:last-child {
@@ -56,5 +58,14 @@ nav.main_menu a:last-child {
 @media (max-width: 768px) {
     nav.main_menu {
         display: none;
+    }
+}
+
+@media (max-width: 1243px) {
+    nav.main_menu a.active::after {
+        top: -15px!important;
+    }
+    nav.main_menu a, nav.main_menu a.active {
+        line-height: 1.19;
     }
 }
