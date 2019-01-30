@@ -5,6 +5,7 @@
 .detail_menu .detail_menu_wrap_columns {
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 
 .detail_menu .detail_menu_column {
