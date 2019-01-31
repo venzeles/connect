@@ -144,7 +144,7 @@
     text-decoration: underline;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1300px) {
     section.exchange_rates {
         padding: 30px;
         flex-wrap: wrap;
