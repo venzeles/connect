@@ -98,6 +98,10 @@ header .header_select {
     padding: 16px 32px;
 }
 
+header .header_select.credit {
+    min-width: 154px;
+}
+
 header .header_select.credit span {
     min-width: 130px;
 }
