@@ -513,7 +513,7 @@
     }
     .get-credit-wrap .get-credit-form {
         width: auto;
-        margin-left: 36%;
+        /*margin-left: 36%;*/
     }
     .get-credit-wrap .get-credit-form h2 {
         font-size: 20px;
