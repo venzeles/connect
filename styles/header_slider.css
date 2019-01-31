@@ -103,7 +103,7 @@
 .header_slider .header_slider_control_left.disable, .header_slider .header_slider_control_right.disable {
     border: 1px solid rgba(255, 255, 255, 0.4);
 }
-@media (max-width: 768px) {
+@media (max-width: 1300px) {
     .header_wrapper .header_slider {
         padding: 30px;
     }

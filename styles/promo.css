@@ -45,7 +45,7 @@ section.promo .promo_card_img img {
     width: 100%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1300px) {
     section.promo {
         padding: 30px;
         height: auto;

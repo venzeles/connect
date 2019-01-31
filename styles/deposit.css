@@ -51,7 +51,7 @@ section.content {
     margin-bottom: 20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1300px) {
     .header_banner .header_banner_title {
         font-size: 30px;
         letter-spacing: -0.04px;

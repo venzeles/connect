@@ -138,7 +138,7 @@
 .services .title_login_btn:hover {
     background: rgba(0, 0, 0, 0.1);
 }
-@media (max-width: 768px) {
+@media (max-width: 1300px) {
     section.services {
         padding: 30px;
     }
