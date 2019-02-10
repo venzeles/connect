@@ -35,6 +35,16 @@ header {
     height: 100%;
 }
 
+.header_wrapper_img {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    background: url('../images/two_hand.jpg');
+    background-size: cover;
+    width: 50%;
+    background-repeat: no-repeat;
+}
+
 header div.logo {
     position: relative;
     margin-right: 30px;
@@ -117,10 +127,17 @@ header .m_menu, .m_wrap_menu {
 .m_wrap_menu_content .logo, .header_wrapper .mobile {
     display: none;
 }
-
+@media (max-width: 1700px) {
+    .header_wrapper_img {
+        background-position-x: -188px;
+    }
+}
 @media (max-width: 1300px) {
     header {
         padding: 30px 0 0 70px;
+    }
+    .header_wrapper_img {
+        background-position-x: 0;
     }
     .wrap_header_content nav, header .header_select {
         display: none;
@@ -175,7 +192,11 @@ header .m_menu, .m_wrap_menu {
         letter-spacing: -0.02px;
     }
 }
-
+@media (max-width: 1100px) {
+    .header_wrapper_img {
+        background-position-x: -188px;
+    }
+}
 @media (max-width: 375px) {
     header {
         padding: 25px 0 15px 52px;
@@ -205,6 +226,6 @@ header .m_menu, .m_wrap_menu {
         height: auto;
         z-index: 3;
         position: relative;
-        left: -83%
+        left: -44%
     }
 }
