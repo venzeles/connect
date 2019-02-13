@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./style/common.css" />
+    <link rel="stylesheet" href="./style/style_1.css" />
+    <link rel="stylesheet" href="./style/style_2.css" />
+
+    <meta
+            name='viewport'
+            content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'
+    />
+</head>
+<body>
+    <header>
+        <div class="content">
+            <button class="btn-black">HNWI</button>
+        </div>
+    </header>
+
+    <section class="auth">
+        <div class="content">
+            <h1>Авторизация</h1>
+            <div class="btn-group dabble">
+                <div class="wrap_input">
+                    <!-- TODO pattern сделал чтобы js не добавлять -->
+                    <input type="text" pattern="^[a]+$" />
+                    <div class="label_input">Логин</div>
+                </div>
+                <div class="wrap_input password">
+                    <input type="password" pattern="^[a]+$" />
+                    <div class="label_input">Пароль</div>
+                </div>
+                <button class="btn-login">Войти</button>
+            </div>
+            <div class="message">
+                Укажите ваш e-mail или номер телефона
+            </div>
+        </div>
+    </section>
+
+    <div class="ring_wrap_1">
+        <div class="ring_1"></div>
+    </div>
+    <div class="ring_wrap_2">
+        <div class="ring_2"></div>
+    </div>
+    <div class="ring_wrap_3">
+        <div class="ring_3"></div>
+    </div>
+    <div class="ring_wrap_4">
+        <div class="ring_4"></div>
+    </div>
+    <div class="ring_wrap_5">
+        <div class="ring_5"></div>
+    </div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const password = document.querySelector('input[type="password"]');
+        const btnLogin = document.querySelector('.btn-login');
+        password.addEventListener('input', () => {
+            if (password.value) {
+                btnLogin.classList.add('active');
+            } else {
+                btnLogin.classList.remove('active');
+            }
+        });
+    });
+</script>
+</body>
+</html>
