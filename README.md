@@ -1,2 +1,0 @@
-# connect.github.io
-connect
