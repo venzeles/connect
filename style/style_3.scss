@@ -1,24 +1,29 @@
 .wrap_input {
-  &.error {
-    input {
-      border-bottom: 2px solid #e83838;
+    &.error {
+        input {
+            @media (min-width: 700px) {
+                border-bottom: 2px solid #e83838;
+            }
+            @media (max-width: 700px) {
+                border-left: 2px solid #e83838;
+            }
+        }
+        .input_error {
+            position: absolute;
+            font-size: 17px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #000000;
+            min-width: 500px;
+            bottom: -40px;
+            display: flex;
+            align-items: center;
+            svg {
+                margin-right: 10px;
+            }
+        }
     }
-    .input_error {
-      position: absolute;
-      font-size: 17px;
-      font-weight: normal;
-      font-style: normal;
-      font-stretch: normal;
-      line-height: normal;
-      letter-spacing: normal;
-      color: #000000;
-      min-width: 500px;
-      bottom: -40px;
-      display: flex;
-      align-items: center;
-      svg {
-        margin-right: 10px;
-      }
-    }
-  }
 }

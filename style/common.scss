@@ -1,56 +1,66 @@
 body {
-  @font-face {
+    @font-face {
+        font-family: Circe-Regular, sans-serif;
+        src: url(../fonts/Circe-Regular.ttf) format("truetype");
+    }
     font-family: Circe-Regular, sans-serif;
-    src: url(../fonts/Circe-Regular.ttf) format("truetype");
-  }
-  font-family: Circe-Regular, sans-serif;
-  margin: 0;
-  background: #f7f7f7;
-  position: relative;
-  overflow: hidden;
-  height: 100vh;
-  min-height: 918px;
-  * {
-    outline: none;
-  }
+    margin: 0;
+    background: #f7f7f7;
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    min-height: 918px;
+    * {
+        outline: none;
+    }
 }
 
+
 .content {
-  width: 1140px;
-  margin: 0 auto;
+    width: 1140px;
+    margin: 0 auto;
+    @media (max-width: 700px) {
+        width: auto;
+        padding: 0 20px;
+    }
 }
 
 header {
-  .content {
-    padding: 36px 0 29px 0;
-    border-bottom: 1px solid rgba(216, 216, 216, 0.5);
-  }
+    .content {
+        padding: 36px 0 29px 0;
+        border-bottom: 1px solid rgba(216, 216, 216, 0.5);
+        @media (max-width: 700px) {
+            padding: 30px 20px;
+        }
+    }
 }
 
 .btn-black {
-  font-size: 17px;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.76;
-  letter-spacing: normal;
-  color: #ffffff;
-  border-radius: 2px;
-  background: #000000;
-  padding: 5px 30px;
-  border: none;
-  cursor: pointer;
-  &:hover {
-    background: #00AFA9;
-  }
+    font-size: 17px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.76;
+    letter-spacing: normal;
+    color: #ffffff;
+    border-radius: 2px;
+    background: #000000;
+    padding: 5px 30px;
+    border: none;
+    cursor: pointer;
+    &:hover {
+        background: #00AFA9;
+    }
 }
 
 .dfr {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
+
 .jcsb {
-  justify-content: space-between;
+    justify-content: space-between;
 }
+
 .aic {
-  align-items: center;
+    align-items: center;
 }
