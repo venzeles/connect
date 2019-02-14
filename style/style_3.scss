@@ -24,6 +24,46 @@
             svg {
                 margin-right: 10px;
             }
+            &.v-m {
+                display: none;
+            }
+            @media (max-width: 700px) {
+                &.v-d {
+                    display: none;
+                }
+                &.v-m {
+                    display: flex;
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
+}
+
+
+.input_error_vm {
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    svg {
+        margin-right: 10px;
+    }
+    &.v-m {
+        display: none;
+    }
+    @media (max-width: 700px) {
+        &.v-d {
+            display: none;
+        }
+        &.v-m {
+            display: flex;
+            margin-bottom: 30px;
         }
     }
 }

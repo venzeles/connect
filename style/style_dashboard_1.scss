@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 body {
     background: #ffffff;
     overflow: auto;
@@ -15,6 +17,15 @@ header {
                 .wrap_login_dropdown {
                     order: 2;
                     font-size: 0;
+                    span {
+                        &:after {
+                            display: none;
+                        }
+
+                        &:before {
+                            left: 0;
+                        }
+                    }
                     .login_dropdown_body {
                         font-size: 14px;
                         top: 40px;
@@ -493,6 +504,10 @@ section {
                             border-radius: 10px;
                             box-shadow: 0 5px 14px 0 rgba(0, 0, 0, 0.15);
                             background-color: #ffffff;
+
+                            @media (max-width: 700px) {
+                                max-width: 260px;
+                            }
                             .total_modal_close_btn {
                                 width: 20px;
                                 height: 20px;
@@ -983,20 +998,48 @@ section {
                         color: #000000;
                         padding-right: 29px;
                     }
+                    .percentage {
+                        margin-left: 26px;
+                        position: relative;
+                        margin-top: 5px;
+                        &:before {
+                            position: absolute;
+                            content: '';
+                            width: 20px;
+                            height: 20px;
+                            top: 50%;
+                            left: -26px;
+                            transform: translate(0, -50%);
+                            background-image: url("data:image/svg+xml,%0A%3Csvg width='20px' height='20px' viewBox='0 0 20 20' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cg id='0.-Cuts' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' stroke-linecap='round' stroke-linejoin='round'%3E%3Cg transform='translate(-765.000000, -1495.000000)' fill-rule='nonzero' id='Group-20' stroke='%23000000' stroke-width='2'%3E%3Cg transform='translate(390.000000, 1220.000000)'%3E%3Cg id='Group-7-Copy-2' transform='translate(0.000000, 250.000000)'%3E%3Cpath d='M390,37 L383,37 L383,44 C379.134007,44 376,40.8659932 376,37 C376,33.1340068 379.134007,30 383,30 C386.865993,30 390,33.1340068 390,37 Z' id='Combined-Shape' transform='translate(383.000000, 37.000000) rotate(-90.000000) translate(-383.000000, -37.000000) '%3E%3C/path%3E%3Cpath d='M394.2,26 C394.2,29.8659932 391.065993,33 387.2,33 L387.2,26 L394.2,26 Z' id='Combined-Shape' transform='translate(390.600000, 29.600000) rotate(-90.000000) translate(-390.600000, -29.600000) '%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+                        }
+                    }
                 }
                 @media (max-width: 700px) {
                     th,td {
                         font-size: 15px;
                         padding: 10px 10px !important;
                     }
+                    td {
+                        line-height: 1.6 !important;
+                        vertical-align: bottom;
+                        .v-m {
+                            margin-top: 5px;
+                        }
+                    }
                     th:nth-child(1), td:nth-child(1) {
                         padding-left: 20px !important;
+                        .v-m {
+                            margin-top: 0;
+                        }
                     }
                     th:nth-child(3), td:nth-child(3) {
                         display: none;
                     }
                     td:last-child {
                         white-space: nowrap;
+                        .v-m {
+                            color: rgba(0, 0, 0, 0.5);
+                        }
                     }
                 }
             }
