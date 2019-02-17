@@ -9,12 +9,12 @@
         letter-spacing: normal;
         color: rgba(0, 0, 0, 0.5);
         position: absolute;
-        left: 20px;
+        left: 22px;
         top: 50%;
         transform: translate(0, -50%);
     }
     input {
-        min-width: auto;
+        min-width: 222px;
         font-size: 19px;
         font-weight: normal;
         font-style: normal;
@@ -22,6 +22,9 @@
         line-height: 1.58;
         letter-spacing: normal;
         color: #000000;
+        @media (max-width: 700px) {
+            font-size: 17px;
+        }
         &:invalid {
             & ~ .label_input {
                 font-size: 15px;
@@ -30,11 +33,12 @@
                 font-stretch: normal;
                 line-height: 1.67;
                 letter-spacing: normal;
-                top: 16px;
+                top: 29px;
             }
         }
         &:focus {
             border-color: #00afa9;
+            min-width: 220px;
             & ~ .label_input {
                 font-size: 15px;
                 font-weight: normal;
@@ -42,7 +46,7 @@
                 font-stretch: normal;
                 line-height: 1.67;
                 letter-spacing: normal;
-                top: 16px;
+                top: 29px;
                 z-index: 10;
                 position: absolute;
             }

@@ -9,11 +9,11 @@
     letter-spacing: normal;
     color: rgba(0, 0, 0, 0.5);
     position: absolute;
-    left: 20px;
+    left: 22px;
     top: 50%;
     transform: translate(0, -50%); }
   .wrap_input input {
-    min-width: auto;
+    min-width: 222px;
     font-size: 19px;
     font-weight: normal;
     font-style: normal;
@@ -21,6 +21,9 @@
     line-height: 1.58;
     letter-spacing: normal;
     color: #000000; }
+    @media (max-width: 700px) {
+      .wrap_input input {
+        font-size: 17px; } }
     .wrap_input input:invalid ~ .label_input {
       font-size: 15px;
       font-weight: normal;
@@ -28,9 +31,10 @@
       font-stretch: normal;
       line-height: 1.67;
       letter-spacing: normal;
-      top: 16px; }
+      top: 29px; }
     .wrap_input input:focus {
-      border-color: #00afa9; }
+      border-color: #00afa9;
+      min-width: 220px; }
       .wrap_input input:focus ~ .label_input {
         font-size: 15px;
         font-weight: normal;
@@ -38,7 +42,7 @@
         font-stretch: normal;
         line-height: 1.67;
         letter-spacing: normal;
-        top: 16px;
+        top: 29px;
         z-index: 10;
         position: absolute; }
   .wrap_input:last-child:focus {
