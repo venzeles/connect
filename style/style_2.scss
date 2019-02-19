@@ -1,3 +1,4 @@
+
 .wrap_input {
     position: relative;
     .label_input {
@@ -55,6 +56,15 @@
     &:last-child {
         &:focus {
             background: black;
+        }
+    }
+}
+
+.once .wrap_input {
+    input {
+        min-width: 480px;
+        &:focus {
+            min-width: 480px;
         }
     }
 }

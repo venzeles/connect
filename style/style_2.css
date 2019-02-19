@@ -48,6 +48,11 @@
   .wrap_input:last-child:focus {
     background: black; }
 
+.once .wrap_input input {
+  min-width: 480px; }
+  .once .wrap_input input:focus {
+    min-width: 480px; }
+
 .dabble .wrap_input:first-child input:focus {
   position: relative;
   border-right: 2px solid #00afa9;

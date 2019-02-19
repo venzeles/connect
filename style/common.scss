@@ -1,20 +1,48 @@
+@font-face {
+    font-family: 'Circe';
+    src: url('../fonts/hinted-subset-Circe-Regular.eot');
+    src: local('Circe'), local('Circe-Regular'),
+    url('../fonts/hinted-subset-Circe-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/hinted-subset-Circe-Regular.woff') format('woff'),
+    url('../fonts/hinted-subset-Circe-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circe';
+    src: url('../fonts/hinted-subset-Circe-Bold.eot');
+    src: local('Circe Bold'), local('Circe-Bold'),
+    url('../fonts/hinted-subset-Circe-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/hinted-subset-Circe-Bold.woff') format('woff'),
+    url('../fonts/hinted-subset-Circe-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
 body {
-    @font-face {
-        font-family: Circe-Regular, sans-serif;
-        src: url(../fonts/Circe-Regular.ttf) format("truetype");
-    }
-    font-family: Circe-Regular, sans-serif;
+    font-family: 'Circe', sans-serif;
     margin: 0;
     background: #f7f7f7;
     position: relative;
     overflow: hidden;
     height: 100vh;
     min-height: 918px;
+    input, textarea, select, button {
+        font-family: 'Circe', Helvetica, Arial, sans-serif;
+    }
     * {
         outline: none;
+        transition-duration: 0.2s, 0.2s, 0.2s;
+        transition-property: all;
     }
     @media (max-width: 700px) {
         min-height: auto;
+    }
+    h1, h2, h3, h4, h5, h6, span, td, th, title {
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
     }
 }
 

@@ -5,6 +5,7 @@
     <title>Title</title>
     <link rel="stylesheet" href="./style/common.css" />
     <link rel="stylesheet" href="./style/style_1.css" />
+    <link rel="stylesheet" href="./style/style_2.css" />
 
     <meta
             name='viewport'
@@ -21,9 +22,12 @@
     <section class="auth">
         <div class="content">
             <h1>Авторизация</h1>
-            <div class="btn-group">
-                <input type="text" placeholder="Логин" />
-                <button class="btn-login inactive">Войти</button>
+            <div class="btn-group dabble once">
+                <div class="wrap_input">
+                    <input type="text" pattern="^[a]+$" />
+                    <div class="label_input">Логин</div>
+                </div>
+                <button class="btn-login">Войти</button>
             </div>
             <div class="message">
                 <span>Укажите ваш e-mail или номер телефона</span>

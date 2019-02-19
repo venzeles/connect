@@ -1,20 +1,36 @@
+@font-face {
+  font-family: 'Circe';
+  src: url("../fonts/hinted-subset-Circe-Regular.eot");
+  src: local("Circe"), local("Circe-Regular"), url("../fonts/hinted-subset-Circe-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/hinted-subset-Circe-Regular.woff") format("woff"), url("../fonts/hinted-subset-Circe-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Circe';
+  src: url("../fonts/hinted-subset-Circe-Bold.eot");
+  src: local("Circe Bold"), local("Circe-Bold"), url("../fonts/hinted-subset-Circe-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/hinted-subset-Circe-Bold.woff") format("woff"), url("../fonts/hinted-subset-Circe-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
 body {
-  font-family: Circe-Regular, sans-serif;
+  font-family: 'Circe', sans-serif;
   margin: 0;
   background: #f7f7f7;
   position: relative;
   overflow: hidden;
   height: 100vh;
   min-height: 918px; }
-@font-face {
-  body {
-    font-family: Circe-Regular, sans-serif;
-    src: url(../fonts/Circe-Regular.ttf) format("truetype"); } }
+  body input, body textarea, body select, body button {
+    font-family: 'Circe', Helvetica, Arial, sans-serif; }
   body * {
-    outline: none; }
+    outline: none;
+    transition-duration: 0.2s, 0.2s, 0.2s;
+    transition-property: all; }
   @media (max-width: 700px) {
     body {
       min-height: auto; } }
+  body h1, body h2, body h3, body h4, body h5, body h6, body span, body td, body th, body title {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
 
 .content {
   width: 1140px;
