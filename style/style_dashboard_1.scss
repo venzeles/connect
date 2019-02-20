@@ -40,6 +40,8 @@ header {
                     order: 3;
                     padding-bottom: 11px;
                     li {
+                        display: block;
+                        width: auto;
                         font-size: 15px;
                     }
                     & + nav {

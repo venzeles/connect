@@ -28,6 +28,8 @@ header .content {
         order: 3;
         padding-bottom: 11px; }
         header .content.dfr nav li {
+          display: block;
+          width: auto;
           font-size: 15px; }
         header .content.dfr nav + nav {
           margin-top: 0; } }
