@@ -78,7 +78,7 @@
     line-height: 1.76;
     letter-spacing: normal;
     color: #ffffff;
-    padding: 25px 30px;
+    padding: 24px 30px;
     border-radius: 2px;
     border: none;
     background: #00AFA9;
@@ -103,6 +103,7 @@
     position: absolute;
     top: 354px;
     left: calc(-25px / 2);
+    z-index: -1;
     .ring_1 {
         position: relative;
         &::before {
@@ -132,6 +133,7 @@
     position: absolute;
     top: -35px;
     right: 186px;
+    z-index: -1;
     .ring_2 {
         position: relative;
         &::before {
@@ -161,6 +163,7 @@
     position: absolute;
     top: 534px;
     right: 66px;
+    z-index: -1;
     .ring_3 {
         position: relative;
         &::before {
@@ -183,6 +186,7 @@
     position: absolute;
     bottom: 0;
     right: 50%;
+    z-index: -1;
     @media (max-width: 700px) {
         display: none;
     }
@@ -205,6 +209,7 @@
     position: absolute;
     bottom: 269px;
     left: 312px;
+    z-index: -1;
     .ring_5 {
         position: relative;
         &::before {
