@@ -36,7 +36,7 @@ body {
         transition-duration: 0.2s, 0.2s, 0.2s;
         transition-property: all;
     }
-    @media (max-width: 700px) {
+    @media (max-width: 1140px) {
         min-height: auto;
     }
     h1, h2, h3, h4, h5, h6, span, td, th, title {
@@ -55,7 +55,7 @@ body {
     width: 1140px;
     margin: 0 auto;
     max-width: 90%;
-    @media (max-width: 700px) {
+    @media (max-width: 1140px) {
         width: auto;
         padding: 0 20px;
     }
@@ -65,7 +65,7 @@ header {
     .content {
         padding: 36px 0 29px 0;
         border-bottom: 1px solid rgba(216, 216, 216, 0.5);
-        @media (max-width: 700px) {
+        @media (max-width: 1140px) {
             padding: 30px 20px;
         }
     }
@@ -102,7 +102,7 @@ header {
 }
 
 .block-xs {
-    @media (max-width: 700px) {
+    @media (max-width: 1140px) {
         display: block;
     }
 }

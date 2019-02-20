@@ -21,9 +21,10 @@
     line-height: 1.58;
     letter-spacing: normal;
     color: #000000; }
-    @media (max-width: 700px) {
+    @media (max-width: 1140px) {
       .wrap_input input {
-        font-size: 17px; } }
+        font-size: 17px;
+        min-width: 0; } }
     .wrap_input input:invalid ~ .label_input {
       font-size: 15px;
       font-weight: normal;
@@ -50,14 +51,20 @@
 
 .once .wrap_input input {
   min-width: 480px; }
+  @media (max-width: 1140px) {
+    .once .wrap_input input {
+      min-width: 0; } }
   .once .wrap_input input:focus {
     min-width: 480px; }
+    @media (max-width: 1140px) {
+      .once .wrap_input input:focus {
+        min-width: 0; } }
 
 .dabble .wrap_input:first-child input:focus {
   position: relative;
   border-right: 2px solid #00afa9;
   z-index: 9; }
-@media (max-width: 700px) {
+@media (max-width: 1140px) {
   .dabble .wrap_input.password {
     margin-top: -22px; } }
 .dabble .wrap_input.password:before {

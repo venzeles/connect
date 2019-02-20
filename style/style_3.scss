@@ -4,7 +4,7 @@
             @media (min-width: 700px) {
                 border-bottom: 2px solid #e83838;
             }
-            @media (max-width: 700px) {
+            @media (max-width: 1140px) {
                 border-left: 2px solid #e83838;
             }
         }
@@ -27,7 +27,7 @@
             &.v-m {
                 display: none;
             }
-            @media (max-width: 700px) {
+            @media (max-width: 1140px) {
                 &.v-d {
                     display: none;
                 }
@@ -56,7 +56,7 @@
     &.v-m {
         display: none;
     }
-    @media (max-width: 700px) {
+    @media (max-width: 1140px) {
         &.v-d {
             display: none;
         }

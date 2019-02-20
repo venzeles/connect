@@ -10,7 +10,7 @@
         font-stretch: normal;
         letter-spacing: normal;
         color: #000000;
-        @media (max-width: 700px) {
+        @media (max-width: 1140px) {
             padding-top: 6px;
             padding-bottom: 17px;
             margin-bottom: 0;
@@ -20,7 +20,7 @@
     .btn-group {
         display: flex;
         justify-content: center;
-        @media (max-width: 700px) {
+        @media (max-width: 1140px) {
             display: block;
         }
     }
@@ -37,7 +37,7 @@
         border-radius: 2px;
         border: 2px solid #ededed;
         border-right: none;
-        @media (max-width: 700px) {
+        @media (max-width: 1140px) {
             display: block;
             width: 100%;
             min-width: 0;
@@ -65,7 +65,7 @@
             display: block;
             max-width: 330px;
         }
-        @media (max-width: 700px) {
+        @media (max-width: 1140px) {
             font-size: 15px;
         }
     }
@@ -91,7 +91,7 @@
         cursor: not-allowed !important;
     }
 
-    @media (max-width: 700px) {
+    @media (max-width: 1140px) {
         display: block;
         margin-bottom: 40px;
         width: 100%;
@@ -116,7 +116,7 @@
             box-sizing: border-box;
         }
     }
-    @media (max-width: 700px) {
+    @media (max-width: 1140px) {
         top: 20%;
         left: calc(-18px / 2);
         .ring_1 {
@@ -146,7 +146,7 @@
             box-sizing: border-box;
         }
     }
-    @media (max-width: 700px) {
+    @media (max-width: 1140px) {
         right: 44%;
         top: calc(-40px / 2);
         .ring_2 {
@@ -177,7 +177,7 @@
             transform: translate(0, -50%);
         }
     }
-    @media (max-width: 700px) {
+    @media (max-width: 1140px) {
         display: none;
     }
 }
@@ -187,7 +187,7 @@
     bottom: 0;
     right: 50%;
     z-index: -1;
-    @media (max-width: 700px) {
+    @media (max-width: 1140px) {
         display: none;
     }
     .ring_4 {
@@ -222,7 +222,7 @@
             box-sizing: border-box;
         }
     }
-    @media (max-width: 700px) {
+    @media (max-width: 1140px) {
         position: absolute;
         bottom: 0;
         left: 50%;

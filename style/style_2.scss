@@ -23,8 +23,9 @@
         line-height: 1.58;
         letter-spacing: normal;
         color: #000000;
-        @media (max-width: 700px) {
+        @media (max-width: 1140px) {
             font-size: 17px;
+            min-width: 0;
         }
         &:invalid {
             & ~ .label_input {
@@ -63,8 +64,14 @@
 .once .wrap_input {
     input {
         min-width: 480px;
+        @media (max-width: 1140px) {
+            min-width: 0;
+        }
         &:focus {
             min-width: 480px;
+            @media (max-width: 1140px) {
+                min-width: 0;
+            }
         }
     }
 }
@@ -80,7 +87,7 @@
         }
     }
     &.password {
-        @media (max-width: 700px) {
+        @media (max-width: 1140px) {
             margin-top: -22px;
         }
         &:before {
