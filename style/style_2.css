@@ -33,6 +33,9 @@
       line-height: 1.67;
       letter-spacing: normal;
       top: 29px; }
+      @media (max-width: 1140px) {
+        .wrap_input input:invalid ~ .label_input {
+          top: 19px; } }
     .wrap_input input:focus {
       border-color: #00afa9;
       min-width: 220px; }
@@ -46,6 +49,9 @@
         top: 29px;
         z-index: 10;
         position: absolute; }
+        @media (max-width: 1140px) {
+          .wrap_input input:focus ~ .label_input {
+            top: 19px; } }
   .wrap_input:last-child:focus {
     background: black; }
 

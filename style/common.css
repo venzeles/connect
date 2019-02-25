@@ -31,7 +31,7 @@ body * {
 }
 @media (max-width: 1140px) {
   body {
-    min-height: auto;
+    min-height: 0;
   }
 }
 body h1, body h2, body h3, body h4, body h5, body h6, body span, body td, body th, body title {

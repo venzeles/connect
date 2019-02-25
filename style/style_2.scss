@@ -36,6 +36,9 @@
                 line-height: 1.67;
                 letter-spacing: normal;
                 top: 29px;
+                @media (max-width: 1140px) {
+                    top: 19px;
+                }
             }
         }
         &:focus {
@@ -51,6 +54,9 @@
                 top: 29px;
                 z-index: 10;
                 position: absolute;
+                @media (max-width: 1140px) {
+                    top: 19px;
+                }
             }
         }
     }

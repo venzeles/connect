@@ -37,7 +37,7 @@ body {
         transition-property: all;
     }
     @media (max-width: 1140px) {
-        min-height: auto;
+        min-height: 0;
     }
     h1, h2, h3, h4, h5, h6, span, td, th, title {
         text-rendering: optimizeLegibility;
